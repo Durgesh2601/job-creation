@@ -7,4 +7,3 @@ export const useHomePageStyles = createStyles(() => ({
     background: "#FAF6E7",
   },
 }));
-// Path: src/Styles/jobCreationPortalStyles.ts
