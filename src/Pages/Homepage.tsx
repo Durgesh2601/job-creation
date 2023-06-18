@@ -1,5 +1,5 @@
-import Navbar from "../Components/Navbar";
-import SideBar from "../Components/Sidebar";
+import Navbar from "../Components/Navbar/Navbar";
+import SideBar from "../Components/Sidebar/Sidebar";
 import { useHomePageStyles } from "../Styles/HomepageStyles";
 
 const HomePage = () => {

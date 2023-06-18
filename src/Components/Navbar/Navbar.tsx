@@ -1,9 +1,9 @@
 import { TextInput, TextInputProps } from "@mantine/core";
-import { useNavbarStyles } from "../Styles/NavbarStyles";
-import MainLogo from "../assets/main_logo.svg";
-import SearchIcon from "../assets/search_icon.svg";
-import BellIcon from "../assets/bell_icon.svg";
-import UserImage from "../assets/avtar.svg";
+import { useNavbarStyles } from "../../Styles/NavbarStyles";
+import MainLogo from "../../assets/main_logo.svg";
+import SearchIcon from "../../assets/search_icon.svg";
+import BellIcon from "../../assets/bell_icon.svg";
+import UserImage from "../../assets/avtar.svg";
 
 const Navbar = (props: TextInputProps) => {
   const { classes } = useNavbarStyles();

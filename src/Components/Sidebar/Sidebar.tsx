@@ -1,4 +1,4 @@
-import { useSidebarStyles } from "../Styles/SidebarStyles";
+import { useSidebarStyles } from "../../Styles/SidebarStyles";
 
 const SideBar = () => {
   const { classes } = useSidebarStyles();
