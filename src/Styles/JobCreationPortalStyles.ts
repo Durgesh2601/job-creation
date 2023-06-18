@@ -25,6 +25,14 @@ export const useJobCreationPortalStyles = createStyles(() => ({
     padding: "10px 0",
     marginTop: "0.7rem",
   },
+  sectionMainContainer: {
+    display: "flex",
+    flexWrap: "wrap",
+    gap: "2rem",
+  },
+}));
+
+export const useSectionStyles = createStyles((display: any) => ({
   sectionContainer: {
     width: "40%",
     marginTop: "1rem",
@@ -35,9 +43,24 @@ export const useJobCreationPortalStyles = createStyles(() => ({
   },
   sectionSubContainer: {
     border: "2px solid #E0E0E0",
-    height: "40vh",
     width: "100%",
     marginTop: "1rem",
     borderRadius: "0.6rem",
+    padding: "1.5rem",
+  },
+  fieldContainer: {
+    display: display,
+    flexWrap: "wrap",
+    gap: "5rem",
+    alignItems: "center",
+  },
+  fieldTitle: {
+    color: "#ADADAD",
+    fontSize: "0.8rem",
+    lineHeight: "2rem",
+  },
+  fieldValue: {
+    fontWeight: "bold",
+    fontSize: "0.9rem",
   },
 }));

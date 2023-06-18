@@ -1,18 +1,24 @@
 {
   "get_details": {
-    "Company": {
+    "company": {
+      "id": "1",
+      "title": "Company",
       "Company name": "ABC Law",
       "Company type": "Law Firm",
       "Address": "13th, 4th street, new york",
       "Phone": "1234567890"
     },
-    "User": {
+    "user": {
+      "id": "2",
+      "title": "User",
       "First name": "Carry",
       "Last name": "Addam",
       "Address": "13th, 4th street, new york",
       "Phone": "1234567890"
     },
-    "Server": {
+    "server": {
+      "id": "3",
+      "title": "Server",
       "States": "NY, PR",
       "Counties": "New York County, Adjunta County",
       "Zipcodes": "00601, 00602",
@@ -22,7 +28,9 @@
       "Same day rates": "$ 25",
       "Number of Attempts": "$ 20"
     },
-    "Documents": {
+    "documents": {
+      "id": "4",
+      "title": "Documents",
       "Document 1": "View",
       "Document 2": "View",
       "Document 3": "View"
