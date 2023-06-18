@@ -1,9 +1,9 @@
 import { useSectionStyles } from "../../Styles/JobCreationPortalStyles";
 
 const SectionDetails = ({ data }: { data: any }) => {
+  const { classes } = useSectionStyles();
   const { title, id, ...fields } = data;
   const display = title === "Documents" ? "flex" : "block";
-  const { classes } = useSectionStyles();
 
   return (
     <div className={classes.sectionContainer}>
@@ -15,8 +15,20 @@ const SectionDetails = ({ data }: { data: any }) => {
             style={{ display }}
             key={`${id}--${index}`}
           >
-            <p className={classes.fieldTitle}>{item}</p>
-            <p className={classes.fieldValue}>{fields?.[item]}</p>
+            <p
+              className={
+                title !== "Documents" ? classes.fieldTitle : classes.fieldValue
+              }
+            >
+              {item}
+            </p>
+            <p
+              className={
+                title !== "Documents" ? classes.fieldValue : classes.fieldTitle
+              }
+            >
+              {fields?.[item]}
+            </p>
           </div>
         ))}
       </div>
