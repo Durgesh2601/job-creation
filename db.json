@@ -1,10 +1,31 @@
 {
-    "posts": [
-      { "id": 1, "title": "Post 1", "body": "This is the first post" },
-      { "id": 2, "title": "Post 2", "body": "This is the second post" }
-    ],
-    "users": [
-      { "id": 1, "name": "John Doe" },
-      { "id": 2, "name": "Jane Smith" }
-    ]
+  "get_details": {
+    "Company": {
+      "Company name": "ABC Law",
+      "Company type": "Law Firm",
+      "Address": "13th, 4th street, new york",
+      "Phone": "1234567890"
+    },
+    "User": {
+      "First name": "Carry",
+      "Last name": "Addam",
+      "Address": "13th, 4th street, new york",
+      "Phone": "1234567890"
+    },
+    "Server": {
+      "States": "NY, PR",
+      "Counties": "New York County, Adjunta County",
+      "Zipcodes": "00601, 00602",
+      "Standard rates": "$ 10",
+      "Two day rates": "$ 15",
+      "One day rates": "$ 20",
+      "Same day rates": "$ 25",
+      "Number of Attempts": "$ 20"
+    },
+    "Documents": {
+      "Document 1": "View",
+      "Document 2": "View",
+      "Document 3": "View"
+    }
   }
+}

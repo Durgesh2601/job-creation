@@ -10,9 +10,7 @@ export const useJobCreationPortalStyles = createStyles(() => ({
     padding: "2rem",
   },
   headerContainer: {
-    border: "1px solid transparent",
     width: "100%",
-    height: "100%",
   },
   secondaryText: {
     color: "#ADADAD",
@@ -26,5 +24,20 @@ export const useJobCreationPortalStyles = createStyles(() => ({
     borderRadius: "0.6rem",
     padding: "10px 0",
     marginTop: "0.7rem",
+  },
+  sectionContainer: {
+    width: "40%",
+    marginTop: "1rem",
+    minHeight: "10vh",
+  },
+  sectionHeader: {
+    paddingLeft: "3px",
+  },
+  sectionSubContainer: {
+    border: "2px solid #E0E0E0",
+    height: "40vh",
+    width: "100%",
+    marginTop: "1rem",
+    borderRadius: "0.6rem",
   },
 }));
